@@ -1,6 +1,5 @@
 import streamlit as st
 
 st.title("Car")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+st.number_input('engine_size',min_value=0,max_value=10)
 )
